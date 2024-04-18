@@ -99,21 +99,24 @@ function App() {
   }
 
   console.log(getImageStyle())
-
   return (
     <div className="container">
       <div className="main-image" style={getImageStyle()} />
       <div className="sidebar">
         {options.map((option, index) => {
           return (
+            <div>
             <SidebarItem
               key={index}
               name={option.name}
               active={index === selectedOptionIndex}
               handleClick={() => setSelectedOptionIndex(index)}
             />
+            </div>
           )
         })}
+    <a href='https://disha1454.github.io/Portfolio/'>My Portfolio</a>
+
       </div>
       <Slider
         min={selectedOption.range.min}

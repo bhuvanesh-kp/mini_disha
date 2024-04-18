@@ -20,7 +20,7 @@ body {
 
 .main-image {
   grid-area: image;
-  background-image: url("https://source.unsplash.com/EwKXn5CapA4");
+  background-image: url("Alex-James.webp");
   width: 100%;
   height: 100%;
   background-position: top center;
@@ -30,8 +30,8 @@ body {
 
 .sidebar {
   grid-area: sidebar;
-  background-color: hsl(265, 100%, 86%);
-  border-left: 1px solid hsl(265, 100%, 56%);
+  background-color: hsl(315, 37%, 77%);
+  border-left: 1px solid hsl(326, 87%, 37%);
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -41,18 +41,18 @@ body {
   cursor: pointer;
   border: none;
   outline: none;
-  background-color: hsl(265, 100%, 86%);
+  background-color: hsl(315, 37%, 77%);
   padding: 1rem;
   position: relative;
   transition: background-color 150ms;
 }
 
 .sidebar-item:hover, .sidebar-item:focus {
-  background-color: hsl(265, 100%, 76%);
+  background-color: hsl(299, 80%, 70%);
 }
 
 .sidebar-item.active {
-  background-color: hsl(265, 100%, 70%);
+  background-color: hsl(299, 60%, 60%);
 }
 
 .sidebar-item::after {
@@ -62,7 +62,7 @@ body {
   left: 10%;
   bottom: 0;
   height: 1px;
-  background-color: hsl(265, 100%, 46%);
+  background-color: hsl(315, 66%, 39%);
 }
 
 .sidebar-item:last-child::after {
